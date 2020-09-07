@@ -1,0 +1,162 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 60px;
+    top:0;
+    position: fixed;
+    z-index: 9999;
+}
+
+#logo{
+    margin-right: 10px;
+    height: 60px;
+    position: absolute;
+}
+
+a{
+    line-height: 4;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+    padding: 10px;
+    left: 120px;
+    text-align: center;
+    font-size: 10pt;
+    letter-spacing: 3px;
+}
+
+a:hover{
+    color:#08fdd8;
+}
+
+a.active{
+    color:#08fdd8;
+}
+
+b{
+    padding: 30px 0;
+}
+
+/* slide show*/
+.container{
+    position: relative;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+img#slideshow{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.text-img{
+  position: absolute; 
+  bottom: 0; 
+  text-align: justify;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 1;
+  height: 30vh;
+  padding: 20px;
+  border-bottom: 10px solid #021428;
+}
+/* home page content*/
+
+#paragraph{
+    margin: 100px;
+    text-align: justify;
+}
+
+/*SERVICES PAGE*/
+h1#page-title{
+    margin-left: 250px;
+    color: #000000;
+}
+
+img#srv-slide{
+    margin-left: 251px;
+    width: 67%;
+}
+
+#srv-paragraph{
+    margin: 100px;
+    margin-left: 250px;
+}
+
+.hello{
+    text-align: justify;
+    margin: 10px;
+    display: block;
+    font-family: sans-serif;
+}
+
+h1.head{
+    letter-spacing: 2px;
+    color: #000000
+}
+
+
+/* PROJECT PAGE */
+#project-img{
+    margin-left: 201px;
+    
+}
+
+div#project1 {
+    margin-left: 1001px;
+    position: absolute;
+    top: 121px;
+    left: 0;
+    width: 466px
+}
+
+div.project2{
+    margin-left: 1001px;
+    position: absolute;
+    top: 570px;
+}
+
+a.proj-butn{
+    width: 100px;
+    height: 60px;
+    background: #1d1d1d;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: -14px;
+}
+
+section#project2{
+    margin-top: 150px;
+}
+
+.okie{
+    margin-top: 80px;
+}
+
+/*footer*/
+
+#footer{
+    
+    width: 100%;
+    height: 210px;
+    background-color:  #1d1d1d;
+    color: #fff;
+}
+
+p.footer-txt{
+    line-height: 7;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
