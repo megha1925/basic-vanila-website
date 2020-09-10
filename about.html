@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website | PORTFOLIO</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://kit.fontawesome.com/9aabafbe91.js" crossorigin="anonymous"></script>
+    
 
     <!--Normalize CSS -->
 
@@ -13,32 +16,35 @@
 </head>
 <body>
     <!-- NAVIGATION BAR -->
-    <nav>
-
+    <nav>  
         <img id="logo" src="/img/logo25.jpeg" alt="logo" />
-    <div id="lol">
-         <a href="/index.html">
-            <b>HOME</b>
+            <div class="lol" id="burg">
+                <a href="/index.html">
+                    <b>HOME</b>
+                </a>
+        
+                <a href="/services.html">
+                    <b>SERVICES</b>
+                </a>
+        
+                <a href="/portfolio.html">
+                    <b>PORTFOLIO</b>
+                </a>
+        
+                <a href="/contact.html">
+                    <b>CONTACTS</b>
+                </a>
+        
+                <a class="active" href="/about.html">
+                    <b>ABOUT</b>
+                </a>
+            </div>
+        <a href="javascript:void(0);" class="ham" onclick="hamClick()">
+            <i class="fa fa-bars"></i>
         </a>
-
-         <a href="/services.html">
-            <b>SERVICES</b>
-        </a>
-
-         <a href="/portfolio.html">
-            <b>PORTFOLIO</b>
-        </a>
-
-         <a href="/contact.html">
-            <b>CONTACTS</b>
-        </a>
-
-         <a  class="active" href="/about.html">
-            <b>ABOUT</b>
-        </a>
-    </div> 
-     
-    </nav>
+         
+        </nav>
+    
 
     <!--PAGE NAME -->
     
@@ -49,7 +55,7 @@
     </section>
 
     <div class="page-container">  
-      <img src="http://via.placeholder.com/750x550">  
+      <img id="srv-slide" src="http://via.placeholder.com/750x550">  
       <h1>About our buisness</h1>    
         <p>
             What is Lorem Ipsum?
@@ -79,5 +85,8 @@
         copyright &copy; 2020
     </p>
     </section >
+    <script src="/js/script.js"></script>
+    <script src="/js/mediaChange.js"></script>
+    
 </body>
 </html>
